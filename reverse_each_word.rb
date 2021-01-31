@@ -13,7 +13,7 @@ array = string.split " "
 array.each.map do |word|
    word.reverse
 end
-
+array.join(" ")
 
 
 end

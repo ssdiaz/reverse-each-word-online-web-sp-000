@@ -9,13 +9,13 @@ def reverse_each_word (string)
 
 # convert to array
 array = string.split " "
+new_array = []
 # use .each to reverse each element?
 array.each.map do |word|
-   word.reverse
+  new_array << word.reverse
 end
-array.join(" ")
+   new_array.join(" ")
 
 
 end
-
 # string = "Hello there, and how are you?"

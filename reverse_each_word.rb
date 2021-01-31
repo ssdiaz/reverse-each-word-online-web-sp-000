@@ -11,7 +11,7 @@ def reverse_each_word (string)
 array = string.split " "
 # use .each to reverse each element?
 array.each.map do |word|
-  puts word.reverse
+   word.reverse
 end
 
 
